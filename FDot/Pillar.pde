@@ -1,7 +1,7 @@
 class PillarColumn{
-    float xPos, opening;
-    boolean cashed = false;
-   PillarColumn(int i){
+  float xPos, opening;
+  boolean cashed = false;
+  PillarColumn(int i){
     xPos = 100+(i*200);
     opening = random(600)+110;
    }
@@ -19,6 +19,5 @@ class PillarColumn{
      cashed=true;
      score++; 
     }
-   }
-
   }
+}
